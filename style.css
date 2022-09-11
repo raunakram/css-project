@@ -1,0 +1,842 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.background {
+    background-color: #F9F9F9;
+    width: 100%;
+    height: 100%;
+    padding-top: 5px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.sign_up {
+    margin-left: 45%;
+}
+
+.sign_up button {
+    padding: 12px 40px 10px 40px;
+    border-radius: 40px;
+    border: 1px solid #DDDDDD;
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: bold; */
+    font-size: 15px;
+    /* color: rebeccapurple; */
+    /*It colors the text in the button...*/
+    /* width:20px
+    height:30px */
+    /* We can give width and height of the button... */
+
+}
+
+.parent_header {
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center;
+    align-items: center; */
+    gap: 30px;
+    flex-direction: row;
+    margin: 100px;
+}
+
+.header .logo {
+    width: 40px;
+    height: 40px;
+}
+
+
+.mobile {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: -320px;
+    height: 100%;
+    width: 100%;
+}
+
+.tour {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.about {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.support {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.pricing {
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+.tagline1 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.button2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+
+}
+
+
+
+
+/*------------------------------------Section 2----------------------------------*/
+
+
+
+
+.line_2 {
+    white-space: pre;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 100px;
+    text-transform: capitalize;
+}
+
+.mac_image {
+    width: 50%;
+    height: 50%;
+    margin-top: 100px;
+    background-image: url(/asset/Macbook_Mockup.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    top: 1228px;
+    left: 140px;
+    width: 1095px;
+    height: 662px;
+    transform: translateX(12%);
+
+}
+
+.overlay_image {
+    background-image: url(/asset/Overlay.jpg);
+    opacity: 70%;
+    width: 716px;
+    height: 452px;
+    transform:translate(105px, 40px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.circle{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background: rgba(46, 113, 240, 1);
+    transform: translate(-345px, 180px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+
+.play_button{
+
+    
+    width: 29px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-445px, 245px);
+    border-top: 25px solid transparent;
+	border-left: 50px solid white;
+	border-bottom: 25px solid transparent;
+
+
+}
+
+
+
+
+/*------------------------------------section 3 starts--------------------------------------*/
+
+
+
+
+
+.main_box{
+    display: flex;
+    flex-direction: row;
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+    gap: 25%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    color: #3C3D41;
+    
+
+}
+
+.some_text{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    gap: 10%;
+    margin-top: 0.7%;
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    color: #656B6F;
+
+}
+
+.create{
+    transform: translateX(-15px);
+}
+
+.upload{
+    transform: translateX(-68px);
+}
+
+.impress{
+    transform: translateX(-124px);
+}
+
+.a_new_way{
+    transform: translateX(-138px);
+}
+
+
+
+/*---------------------------------Section 4 Start-------------------------*/
+
+
+
+
+.section_2{
+    margin-top: 10%;
+    background-color: #F9F9F9;
+    /* height: 100%;
+    width: 100%; */
+    /* border: 4px solid black; */
+}
+
+.online_portfolio{
+    display: flex;
+    justify-content: center;
+    font-family:'Montserrat', sans-serif ;
+    font-weight: bold;
+    font-size: 52px;
+    color: #3C3D41;
+    margin-top: 2%;
+    white-space: pre;
+}
+
+.portfolio{
+    display: flex;
+    justify-content: center;
+    white-space: pre;
+    font-size: 20px;
+    color: #656B6F;
+    display: block;
+    
+}
+
+.line_1{
+    display: flex;
+    justify-content: center;
+    margin-top: -5%;
+
+}
+
+.line_2nd{
+    display: flex;
+    justify-content: center;
+    margin-top: -3%;
+}
+
+.mac_image_2_div{
+    display: flex;
+    justify-content: center;
+}
+
+
+.mac_2nd_image{
+    height: 616px;
+    width: 816px;
+}
+
+
+
+
+/*----------------------------------Section 5 start---------------------------------------*/
+
+
+
+.section_3{
+    /* border: 4px solid black; */
+    padding-top: 1%;
+    background-color: #F9F9F9;
+    gap: 10%;
+    padding-bottom: 7%;
+}
+
+.section_3_part_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+
+}
+
+.section_3_part_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #3C3D41;
+    font-style: 'Montserrat', sans-serifs ;
+    font-weight: bold;
+    font-size: 11px;
+    margin-top: 1%;
+}
+
+.section_3_part_3{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    color: #656B6F;
+    font-style:'PT Serif', serif ;
+    margin-top: 1%;
+    gap: 10%;
+
+}
+
+.use_ui{
+    transform: translateX(80px);
+}
+
+.wireframe{
+    transform: translateX(-30px);
+}
+
+.russian_expansion{
+    transform: translateX(30px);
+}
+
+.design{
+    transform: translateX(-10px);
+}
+
+.lake_baikal{
+    transform: translateX(-50px);
+}
+
+
+
+
+/*------------------------------------ Section 6 start--------------------------------------  */
+
+
+
+
+
+.section_6{
+    background-color: #3c3d41;
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.mi_2_container{
+    display: flex;
+    padding-top: 3%;
+}
+
+.responsive_airline{
+    color: white;
+    font-style: 'Montserrat', sans-serifs ;
+    font-size: 52px;
+    transform: translate(325px, 50px);
+    
+}
+
+
+
+.list_of_mi_2{
+    transform: translate(100px, 60px);
+    color: white;
+    font-size: 11px;
+    font-style: 'Montserrat', sans-serifs ;
+}
+
+.application{
+    font-style: 'Montserrat', sans-serifs;
+    font-size: 11px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    transform: translateX(-15px);
+}
+
+
+.list_intro{
+    list-style: none;
+    padding-bottom: 12px;
+    transform: translateX(-12px);
+}
+.intro::before{
+    content: "\2022";
+    color: blue;
+}
+
+.intro span{
+    position: relative;
+    left: 10px;
+}
+
+.after_airline{
+    padding-top: 6%;
+    padding-left: 30%;
+    font-style:'PT Serif', serif ;
+    color: white;
+    font-size: 18px;
+    opacity: 70%;
+
+}
+
+.mobile_image{
+height: 70%;
+width: 60%;
+padding-left: 25%;
+padding-top: 9%;
+margin-left: 20%;
+
+
+}
+.icon{
+    display: flex;
+   flex-direction: column;
+   margin-bottom: 25%;    
+    
+}
+
+
+
+.section_6_main{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding-top: 14%;
+    margin-left: -5%;
+}
+
+
+.search_icon{
+    display: flex;
+    gap: 40px;
+    color: white;
+    font-style: 'Montserrat', sans-serif ;
+    font-size: 11px;
+    height: 40px;
+    width: 30px;
+    
+}
+
+
+.smart_search{
+    box-sizing: border-box;
+    height: 44px;
+    width: 214px;
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    color: white;
+    opacity: 70%;
+    padding-top: 10px;
+    
+}
+
+
+.storm_icon{
+    display: flex;
+    gap: 40px;
+    color: white;
+    font-style: 'Montserrat', sans-serif ;
+    font-size: 11px;
+    height: 40px;
+    width: 30px;
+    
+   
+    
+}
+
+
+.hot_stories{
+    box-sizing: border-box;
+    height: 44px;
+    width: 214px;
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    color: white;
+    opacity: 70%;
+    padding-top: 10px;
+    
+}
+
+
+.heart_icon{
+    display: flex;
+    gap: 40px;
+    color: white;
+    font-style: 'Montserrat', sans-serif ;
+    font-size: 11px;
+    height: 40px;
+    width: 30px;
+    
+    
+}
+
+
+.favourites{
+    box-sizing: border-box;
+    height: 44px;
+    width: 214px;
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    color: white;
+    opacity: 70%;
+    padding-top: 10px;
+    
+}
+
+.last{
+    display: flex;
+}
+/* .section_6_main{
+    transform: translate(px, 80px);
+} */
+
+
+/*-------------------------------Section 7 Starts----------------------------*/
+
+
+
+
+.section_7{
+background-color: white;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 7%;
+margin-bottom: 7%;
+}
+
+
+.logos{
+    display: flex;
+    gap: 55px;
+    margin-top: 5%;
+
+}
+
+.proud_text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+
+
+/*---------------------------------Section 8 Starts-----------------------------------*/
+
+
+
+
+.section_8{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+.sub_section_8-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 43px;    
+}
+
+
+
+.userpic_text{
+    box-sizing: border-box;
+    height: 143px;
+    width: 803px;
+    font-size: 32px;
+    font-family: 'PT Serif', serif ;
+
+}
+
+.left_arrow{
+    height: 50px;
+    width: 50px;
+}
+
+.right_arrow{
+    height: 50px;
+    width: 50px;
+}
+
+.sub_section_8-2{
+    display: flex;
+    justify-content: center;
+    gap: 21px;
+    margin-right: 26%;
+}
+
+.KOGI_MOTOFUMI{
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 14px;
+
+}
+
+.lead_designer{
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+}
+
+
+
+/*----------------------------------Section 9 starts------------------------------------*/
+
+
+.section_9{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F9F9;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.free_trial{
+    font-size:52px ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.hurry_up{
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+    box-sizing: border-box;
+    width: 489px;
+    height: 59px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 46px;
+}
+
+
+.section_9-2{
+    display: flex;
+    
+}
+
+
+.section_9-2_signup button{
+
+    background-color: #2E71F2;
+    width: 154px;
+    height: 51px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; 
+    font-style: 'Montserrat', sans-serif ;
+    color: white;
+
+}
+
+.section_9-2_form form input{
+    width: 279px;
+    height: 51px;
+    border: none;
+    outline: none;
+    padding: 12px;
+    font-style: 'Montserrat', sans-serif ;
+    font-size: 14px;
+}
+
+
+
+
+/*------------------------------------------section 10 starts-----------------------------*/
+
+
+
+.section_10{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+
+.get_an_app{
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 51px;
+    font-weight: bold;
+    color: #3C3D41;
+    padding-top: 3%;
+}
+
+.section_10_hurry_up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #656B6F;
+    font-family:'PT Serif', serif ;
+    font-size: 20px;
+    padding-top: 3%;
+
+}
+
+
+.app_store_icon{
+    padding-top: 3%;
+}
+
+
+
+
+/*-------------------------------------Section 11 starts---------------------------*/
+
+
+
+
+.section_11{
+    background-color: #3C3D41;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 4%;
+    
+}
+
+
+.section_11-1{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    
+}
+
+
+.white_baikal_logo img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.footer_logo{
+    display: flex;
+    padding-left: 70%;
+    gap: 25px;
+}
+
+.facebook img{
+    width: 35px;
+    height: 35px;
+}
+
+.twitter img{
+    width: 35px;
+    height: 35px;
+}
+
+.instagram img{
+    width: 35px;
+    height: 35px;
+}
+
+.google img{
+    width: 35px;
+    height: 35px;
+}
+
+.footer_list{
+
+    font-size: 11px;
+    font-family:'Montserrat', sans-serif ;
+    display: flex;
+    gap: 92px;
+    padding-left: 339px;
+    color: #FFFFFF;
+    list-style: none;
+
+
+}
+
+
+.terms_conditions{
+    font-family:'PT Serif', serif ;
+    font-size: 13px;
+    transform: translate(110px, -40px);
+    font-size: 13px;
+    opacity: 50%;
+
+}
+
+
+
+.space_list {
+    line-height: 8px;
+
+}
+
+.footer_list ul li{
+    margin-bottom: 24px;
+}
+
+
+.footer_list ul{
+    list-style: none;
+}
+
